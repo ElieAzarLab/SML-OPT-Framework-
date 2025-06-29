@@ -2,7 +2,7 @@
 
 This repository contains the code used for a project funded by the India-Canada Centre for Innovative Multidisciplinary Partnerships to Accelerate Community Transformation and Sustainability (IC-IMPACTS), especially [1]. The code was developed to allow for the creation of machine-learning (ML) surrogates of EnergyPlus -- a Building Performance Simulation (BPS) software -- outputs [2], then integrating the surrogates into an optimization framework (created using pymoo [3]) that also includes an energy supply model (created using NREL-pySAM [4]), with the aim of optimizing for energy demand & supply, thermal comfort, and costs (capital & operational). While the examples given here are for an archetypal office in Ottawa, ON, Canada, the framework was designed to be adjustable to fit different climate and building contexts, provided the user has a working understanding of EnergyPlus (and Eppy [5]), ML, and Python. Seeing as the framework utilizes UNSGA-III, the framework can be scaled to accomodate from 1 to 15 objective functions, though the user is highly recommended to consult the original UNSGA-III papers before changing the number of objective functions coded in the repository, as well as the paper that this code supports ([1],[6]). 
 
-Earlier versions of this framework (not published due to incompleteness of scope/redundancy with what is found in this repository) were used for the following papers ([7],[8],[9],[10]), which the user is encouraged to explore in addition to [1].
+Earlier versions of this framework (not published due to incompleteness of scope/redundancy with what is found in this repository) were used for the following papers ([7],[8],[9],[10]), which the user is encouraged to explore in addition to [1]. See also [11] for a tutorial on using pymoo with ML surrogates.
 
 [1] S. Qiblawi et al., "A many-objective building retrofit optimization framework leveraging reduced-order surrogate and physics-based models." [UNPUBLISHED]
 
@@ -23,3 +23,5 @@ Earlier versions of this framework (not published due to incompleteness of scope
 [9] E. Markarian et al. "Informing building retrofits at low computational costs: a multi-objective optimisation using machine learning surrogates of building performance simulation models." Journal of Building Performance Simulation, 1–17. https://doi.org/10.1080/19401493.2024.2384487
 
 [10] S. Qiblawi et al., "Informing Building Retrofits Using Surrogates of Physics-Based Simulation Models: A Comparison of Multi-Objective Optimization Algorithms," 2024 Winter Simulation Conference (WSC), Orlando, FL, USA, 2024, pp. 798-809, doi: 10.1109/WSC63780.2024.10838892.
+
+[11] https://github.com/DataGasmic/EuroPython2023-Solving-MO_Constrained-Optimisation-with-Pymoo
