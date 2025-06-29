@@ -5,12 +5,21 @@ This repository contains the code used for a project funded by the India-Canada 
 Earlier versions of this framework (not published due to incompleteness of scope/redundancy with what is founnd in this repository) were used for the following papers ([7],[8],[9],[10]), which the user is encouraged to explore in addition to [1].
 
 [1] S. Qiblawi et al., "A many-objective building retrofit optimization framework leveraging reduced-order surrogate and physics-based models." [UNPUBLISHED]
+
 [2] J. Woods et al., EnergyPlusTM v.23.2.0. (2023). National Renewable Energy Laboratory (NREL), United States. doi: 10.11578/dc.20240605.1
+
 [3] J. Blank and K. Deb, “Pymoo: Multi-Objective Optimization in Python,” IEEE Access, vol. 8, pp. 89497–89509, 2020, doi: 10.1109/ACCESS.2020.2990567 (see https://github.com/anyoptimization/pymoo)
+
 [4] P. Gilman et al., “PySAM (Python Wrapper for System Advisor Model ‘SAM’) [SWR-19-57],” National Renewable Energy Laboratory (NREL), Golden, CO (United States), PySAM, Aug. 2019. doi: 10.11578/dc.20190903.1 (see https://github.com/NREL/pysam)
+
 [5] https://github.com/santoshphilip/eppy
+
 [6] H. Seada and K. Deb, “A Unified Evolutionary Optimization Procedure for Single, Multiple, and Many Objectives,” IEEE Transactions on Evolutionary Computation, vol. 20, no. 3, pp. 358–369, Jun. 2016, doi: 10.1109/TEVC.2015.2459718
+
 [7] S. Krishnan et al., "Evaluating the Capabilities of Surrogate Modeling Techniques in Predicting Hourly Building Energy Consumption." InEC3 Conference 2024 2024 Jul 14 (Vol. 5, pp. 0-0). European Council on Computing in Construction.
+
 [8] E. Markarian et al., "Evaluating the Capabilities of Machine Learning Surrogate Modeling to Support High-Resolution Building Performance Simulation." In Advances in Information Technology in Civil and Building Engineering. ICCCBE 2024. Lecture Notes in Civil Engineering, vol 629. Springer, Cham. https://doi.org/10.1007/978-3-031-87364-5_14
+
 [9] E. Markarian et al. "Informing building retrofits at low computational costs: a multi-objective optimisation using machine learning surrogates of building performance simulation models." Journal of Building Performance Simulation, 1–17. https://doi.org/10.1080/19401493.2024.2384487
+
 [10] S. Qiblawi et al., "Informing Building Retrofits Using Surrogates of Physics-Based Simulation Models: A Comparison of Multi-Objective Optimization Algorithms," 2024 Winter Simulation Conference (WSC), Orlando, FL, USA, 2024, pp. 798-809, doi: 10.1109/WSC63780.2024.10838892.
