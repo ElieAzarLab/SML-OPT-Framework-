@@ -4,7 +4,7 @@ This repository contains the code used for a project funded by the India-Canada 
 
 While the examples given here are for an archetypal office in Ottawa, ON, Canada, the framework was designed to be adjustable to fit different climate and building contexts, provided the user has a working understanding of EnergyPlus (and Eppy [5]), ML, and Python. Seeing as the framework utilizes UNSGA-III, the framework can be scaled to accomodate from 1 to 15 objective functions, though the user is highly recommended to consult the original UNSGA-III papers before changing the number of objective functions coded in the repository, as well as the paper that this code supports ([1],[6]). Note also that the results found here differ very slightly from the ones in the paper due to the stochasticity of the optimization algorithm.
 
-Earlier versions of this framework (not published due to incompleteness of scope/redundancy with what is found in this repository) were used for the following papers ([7],[8],[9],[10]), which the user is encouraged to explore in addition to [1]. See also [11] for a tutorial on using pymoo with ML surrogates. 
+Earlier versions of this framework (not published due to incompleteness of scope/redundancy with what is found in this repository) were used for the following papers ([7-10]), which the user is encouraged to explore in addition to [1]. See also [11] for a tutorial on using pymoo with ML surrogates. 
 
 [1] S. Qiblawi et al., "A many-objective building retrofit optimization framework leveraging reduced-order surrogate and physics-based models." [UNPUBLISHED]
 
